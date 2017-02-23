@@ -1,0 +1,9 @@
+assumptions in linear regression:
+1.linear relationship between input variables and outcome variable
+2.error term is a normally distributed random variable with mean equal to zero and constant variance
+
+for given inputs x1,x2,x3... output variable y is normally distributed with mean b0+b1x1+b2x2..... and variance sigma^2
+
+
+normality assumption on the error term helps us in performing hypothesis testing on the linear regression model and to provide confidence intervals on the parameters and mean of y given x1,x2...
+
