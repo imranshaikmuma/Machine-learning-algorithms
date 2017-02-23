@@ -3,10 +3,19 @@ assumptions in linear regression:
 2.error term is a normally distributed random variable with mean equal to zero and constant variance
 
 for given inputs x1,x2,x3... output variable y is normally distributed with mean b0+b1x1+b2x2..... and variance sigma^2
-
-
 normality assumption on the error term helps us in performing hypothesis testing on the linear regression model and to provide confidence intervals on the parameters and mean of y given x1,x2...
 
+therefore residuals output in linear regression model have normal distribution with mean equal to zero and constant variance
 
 
+
+pvalues:
 p value denotes the probability of associated hypothesis test value(t value) assuming null hypothesis. if it is small, null hypothesis should be rejected. if the p value is large, the variable causing such high probability should be rejected from the data. as high probability denotes that null hypotheisis shouldnt be rejected and the correspoding variable has not affect on the dependent variable output
+
+
+categorical variables:
+best way to handle m categorical variables is adding m-1 binray variables to the model
+
+confidence intervals:
+t tests not only used to perform hypothesis test on individual parameters, but also expressed in terms of confidence intervals on the parameters
+
