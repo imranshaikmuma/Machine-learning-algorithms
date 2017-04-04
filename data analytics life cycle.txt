@@ -1,0 +1,45 @@
+data analytics life cycle:
+examples:
+1.scientific method
+2.crisp-dm
+3.tom davenport's delta framework
+4.doug hubbard's applied information economics(aie)
+5. MAD skills by cohen: magnetic,agile and deep
+
+steps:
+1. discovery:
+	learning the business domain
+	resources including technology,tools,systems,data and people
+	framing the problem : is the process of stating the analytics problem to be solved
+	identifying stakeholders:
+	interviewing the analytics sponsor
+	developing initial hypothesis
+	identifying potential data sources
+		identify data sources
+		capture aggregate data sources
+		review raw data
+		evaluate data structures and tools needed
+		scope the sort of data infrastructure needed for problem
+		
+2. data preparation: prepare analytics sandbox, most interative process and most underestimated one
+	prepare analytics sandbox or workspace: atleast 5-10 times of the size of original datasets
+	perform ETLT: ELT OR ETL ; ELT is preferred so as to preserve raw data
+	learning about the data	
+	data conditioning: clean data,normalize datasets,perform transformations
+	survey and visualize: visualize to examine data quality or skewness; overview first,zoom and filter then details-on-demand
+	common tools preparation: hadoop,alpine miner,openrefine,data wrangler
+	
+3. model planning: refers to the hypothesis framed in first phase and frame the analytics to execute in next phase, determine which models/series of techniques for the problem
+	data exploratoin and variable selection
+	model selection
+	common tools for model planning: R, sql analysis services,SAS/access
+	
+4. model building: develop datasets for training,testing and production
+	common tools for model building: 
+		commercial: sas enterprise miner,spss modeler,matlab,alpine miner,statistica and mathematica 
+		free and open source: R,Octave,weka,python,sql
+
+5. communicate results: insight on how to access intangibles in business and quantify the value of seemingly unmeasurable things, document key findings and major insights from analysis
+
+6. operationalize: before deploying models immediately on wide scale,execute the algorithm in database rather than in-memory-tools
+	
