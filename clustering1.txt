@@ -1,0 +1,40 @@
+clustering:
+unsupervised technique to group similar objects
+
+popular algorithm is k-means: identifies k clusters. center is determined by taking arithmetic average mean of each clusters vector of n dimensional
+
+usecases:
+image processing: within each frame, we can see which pixels are most similar to each other
+	example: successive frames can be compared also to detech anauthorized access to a facility
+medical: 
+customer segmentation: customers with similar behaviour and spending patterns
+marketing
+economics
+biology
+
+
+determining the number of clusters:
+use within sum of squares(WSS) to determine optimal value of k
+
+
+diagnostics:
+plot the data to see how different clusters are with each other
+from this we can know, if the clusters are well seperated,if any clusters have only few points,or if centers of clusters are too close to each other
+
+in clustering analysis, we also must choose attributes of objects:
+too many attributes can minimize the importance of most important attributes 
+use scatterplot matrix, to visualize the pairwise relationship between attributes or to reduce number of attributes is to combine several attributes into one measure
+we can have different clusters, if we change the units of measure of attributes of object
+
+rescaling:divide each attribute by attributes standard deviation to get right scaling
+
+disadvantages:
+k means clustering is only applicable to objects that can be described by attributes that are numerical with meaningful distance measure
+it cannot handle categorical variables well
+
+
+other algorithms:
+k-modes algorithm
+PAM : partitioning around medoids: here center of each cluster is an object unlike in kmeans
+hierarchial agglomerative clustering
+density clustering
